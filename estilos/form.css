@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #3c3d89;
+    background: url(../imagens/fundo-tela-espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav {
+   text-align: right;
+   padding-right: 100px;
+   margin: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: aqua;
+}
+   
+    
+   
+    
+
+main {
+    
+    width: 600px;
+   
+    padding: 50px;
+    display: block;
+    margin-left:100px;
+    border-radius: 20px;
+    background-color: #14143a;
+    color: white;
+    
+}
+
+label {
+    font-size: 20px;
+}
+
+
+
