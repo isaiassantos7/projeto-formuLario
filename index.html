@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Project</title>
     <link rel="stylesheet" href="estilos/form.css">
+    
 </head>
 <body>
 
@@ -14,10 +15,14 @@
         <h1>This is Form</h1>
         
         
-        <nav><a href="#">View in Editor</a></nav>
+       
+    </header>
+
+    <menu>
+         <nav><a href="#">View in Editor</a></nav>
         <nav><a href="">Sing Up</a></nav>
         <nav><a href="">Log In</a></nav>
-    </header>
+    </menu>
 
     <main>
 
@@ -33,7 +38,7 @@
 
         <form action="" method="post" autocomplete="on">
             <p>
-                <label for="inome">Nome</label> <br>
+                <label for="inome">Name</label> <br>
                 <input type="text" name="nome" id="inome" size= 80 style="height: 30px; border-radius:5px" required placeholder=" Digite seu Nome"> <br>
                 <br>
             </p>
@@ -47,11 +52,7 @@
 
             <br>
 
-            <p>
-                <label for="iage">Idade</label> <br>
-                <input type="text" name="age" id="iage" size="80" style="height: 30px; border-radius:5px" placeholder=" Digite sua Idade">
-            </p>
-            <br>
+           
 
             <p>
                 <label for="iprof">Profissão</label> <br>
@@ -60,10 +61,20 @@
                 <datalist id="listprof">
                     <option>Estuante</option>
                     <option>Arquiteto</option>
+                    <option>Advogado</option>
 
                 </datalist>
                 
             </p>
+
+            <br>
+
+            <p>
+                <label for="iage">Idade</label> <br>
+                <input type="number" name="age" id="iage" size="80" style="height: 30px; border-radius:5px;" placeholder="  Digite sua Idade">
+            </p>
+
+            <br>
             <br>
 
             <p>
@@ -95,10 +106,12 @@
 
 
 
-            <p>
-                <input type="submit" value="Enviar">
-            </p>
+            
+                <p>
+                    <input id="submit" type="submit" value="Enviar">
+                </p>
                 
+           
 
              
 
